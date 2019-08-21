@@ -73,3 +73,4 @@ export function DocumentTitle({title}) {
         <DocumentTitle title="Dashboard" />ß
     </Fragment>
 ```
+
