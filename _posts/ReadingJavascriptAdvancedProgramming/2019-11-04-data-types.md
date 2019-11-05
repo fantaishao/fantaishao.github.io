@@ -1,0 +1,98 @@
+---
+layout: post
+#标题配置
+title:  JavaScript Data Types
+#时间配置
+date:   2019-11-04
+#大类配置
+categories: JavaScript
+#小类配置
+tag: JavaScript
+---
+
+* content
+{:toc}
+
+
+
+#### ECMAScript中有5+1种类型
+
+基本数据类型或者原始数据类型
+* Boolean
+* Number
+* String
+* Null
+* Undefined
+
+其他所有的统称为对象
+* Object
+> 只有对象才有方法
+
+![/styles/images/1.png]({{ '/styles/images/1.png' | prepend: site.baseurl  }})
+
+> 在js中，任何两个独立的对象都不相等。如果想要比较的话，也是去比较对象的引用。
+> lodash里面的方法
+> 由于js的数据类型具有动态性，因此的确没有再定义其他数据类型的必要了。
+
+基本数据类型不可改变，
+
+#### 1.1 typeof操作符
+
+typeof方法是一个操作符，不是一个函数。
+typeof方法返回以下字符串
+* "undefined"
+* "boolean"
+* "string"
+* "number"
+* "object"
+* "function"
+建议书写方法时将typeof整个表达式用括号括起来。否则会有些问题有些时候会有问题。
+请看如下代码
+
+```
+Var a = true;
+Var b = true;
+Console.log(typeof a == b)
+```
+
+你认为以上代码输出结果是什么？ boolean ? false?
+![/styles/images/2.png]({{ '/styles/images/2.png' | prepend: site.baseurl  }})
+
+
+#### 1.2 Undefined 和 null
+相同点
+*  都只有一个值
+* 参与判断，都返回false
+* 都没有方法
+不同点
+* 在js中，null是一个关键字，undefined不是关键字
+* null是个对象，undefined不是一个对象，本质是window的一个属性
+* undefined是为初始化的，null是已经初始化的
+* typeof， null返回“object”，undefined 返回“undefined”
+* 当你把null转化成一个数字的时候会返回一个0, undefined会返回NaN
+![/styles/images/3.png]({{ '/styles/images/3.png' | prepend: site.baseurl  }})
+	
+	
+那么这两个值在什么在实际开发中如何使用呢？
+* 声明一个变量时可以不赋值，但是如果你不知道怎么给这个变量赋值，可以赋值null
+* 全等，检测某个值是否存在时，可以用undefined
+* 全等，检测一个值是否为空时，用null
+
+> undefeated主要目的是用于比较。ECMA-262第三版引入这个值时为了正式区分空对象指针与未经初始化的变量
+
+#### 1.3 Boolean类型
+
+有两个值，true和false，主要用途是用于判断或者对结果进行比较。
+
+在js中，所有的数据类型都可以转化成boolean类型。
+
+```
+Boolean（123）// true
+```
+
+只有6个值会转换成false， 其他都是true
+
+这6个值时0，-0，undefined，null，‘’，NaN
+![/styles/images/4.png]({{ '/styles/images/4.png' | prepend: site.baseurl  }})
+
+> 如果你觉得书写boolean比方麻烦，也可以用两个！！来代替
