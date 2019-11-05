@@ -5,7 +5,7 @@ title:  React 组件生命周期
 #时间配置
 date:   2019-03-22
 #大类配置
-categories: front-end
+categories: react
 #小类配置
 tag: 总结
 ---
