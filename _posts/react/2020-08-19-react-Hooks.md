@@ -7,7 +7,7 @@ date:   2019-08-19
 #大类配置
 categories: react
 #小类配置
-tag: react
+tag: React
 ---
 
 * content

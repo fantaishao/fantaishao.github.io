@@ -7,7 +7,7 @@ date:   2019-07-23
 #大类配置
 categories: ComputerNet
 #小类配置
-tag: mind
+tag: 计算机网络原理
 ---
 
 * content
