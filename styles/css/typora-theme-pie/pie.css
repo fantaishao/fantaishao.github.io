@@ -865,9 +865,13 @@ tt {
 .md-image img {
   border-radius: 4px;
 }
+img{
+  width: 100%;
+}
 img[alt|='big'] {
    width: 500px;
 }
+
 /* 当 “![shadow-随便写]()”写时，会有阴影 */
 .md-image img[alt|='shadow'] {
   box-shadow: 0 4px 24px -6px #ddd;
