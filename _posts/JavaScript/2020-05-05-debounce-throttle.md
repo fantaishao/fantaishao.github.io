@@ -31,9 +31,17 @@ tag: JavaScript
 
 监听滚动条事件，使用debounce函数和不使用的对比。
 
-
+<iframe
+     src="https://codesandbox.io/embed/javascript-debounce-scroll-demo-b1qhf?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="JavaScript Debounce Scroll Demo"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 ##### 什么是节流函数
+
+节流函数就是每隔一段时间执行一次函数。比方说页面无限滚动加载，我们就可以用这种
 
 
 
