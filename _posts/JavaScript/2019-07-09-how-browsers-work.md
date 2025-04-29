@@ -34,7 +34,7 @@ tag: JavaScript
 	浏览器的主要组件组成			{#browser-main-components}
 ---------------------
 
-![/styles/images/browser-main-components.jpg]({{ '/styles/images/browser-main-components.jpg' | prepend: site.baseurl  }})
+![/assets/img/browser-main-components.jpg]({{ '/assets/img/browser-main-components.jpg' | prepend: site.baseurl  }})
 
 
 
@@ -47,9 +47,9 @@ tag: JavaScript
 #### 浏览器渲染基本流程(webkit)			{#render-engine-basic-flow}
 ---------------------
 
-![/styles/images/render-engine-basic-flow.jpg]({{ '/styles/images/render-engine-basic-flow.jpg' | prepend: site.baseurl  }})
+![/assets/img/render-engine-basic-flow.jpg]({{ '/assets/img/render-engine-basic-flow.jpg' | prepend: site.baseurl  }})
 
 #### WebKit主流程		{#main-flow}
 ---------------------
 
-![/styles/images/how-browsers-work.png]({{ '/styles/images/how-browsers-work.png' | prepend: site.baseurl  }})
+![/assets/img/how-browsers-work.png]({{ '/assets/img/how-browsers-work.png' | prepend: site.baseurl  }})

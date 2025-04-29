@@ -29,21 +29,21 @@ a===1 && b === 2
 逻辑与不一定返回布尔值。此时，它遵循以下规则
 * 如果第一个操作数是对象，则返回第二个操作数
 
-![/styles/images/8.png]({{ '/styles/images/17.png' | prepend: site.baseurl  }})
+![/assets/img/8.png]({{ '/assets/img/17.png' | prepend: site.baseurl  }})
 
 * 如果第二个操作数是对象，则只有第一个操作数的求值结果为true的情况下才返回该对象
 
-![/styles/images/8.png]({{ '/styles/images/18.png' | prepend: site.baseurl  }})
+![/assets/img/8.png]({{ '/assets/img/18.png' | prepend: site.baseurl  }})
 
 * 如果两个操作数都是对象，则返回第二个操作数
 
-![/styles/images/8.png]({{ '/styles/images/19.png' | prepend: site.baseurl  }})
+![/assets/img/8.png]({{ '/assets/img/19.png' | prepend: site.baseurl  }})
 
 * 如果第一个操作数是null， 则返回null
 * 如果第一个操作数是NaN， 则返回NaN
 * 如果第一个操作数是undefined，则返回undefined
 
-![/styles/images/8.png]({{ '/styles/images/20.png' | prepend: site.baseurl  }})
+![/assets/img/8.png]({{ '/assets/img/20.png' | prepend: site.baseurl  }})
 
 
 2. **逻辑或**

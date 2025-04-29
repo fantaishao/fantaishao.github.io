@@ -325,7 +325,7 @@ event对象总的来说可以分为三类，和位置相关，和键盘相关，
 
   `currentEvent.movementX = currentEvent.screenX - previousEvent.screenX`.
 
-![/styles/images/mouseevent.png]({{ '/styles/images/mouseevent.png' | prepend: site.baseurl  }})
+![/assets/img/mouseevent.png]({{ '/assets/img/mouseevent.png' | prepend: site.baseurl  }})
 
 和键盘相关的事件
 
@@ -456,7 +456,7 @@ IE9修复了这个bug，之后顺序就正确了。
 
 浏览器输出结果
 
-![/styles/images/image-20200502101846924.png]({{ '/styles/images/image-20200502101846924.png' | prepend: site.baseurl  }})
+![/assets/img/image-20200502101846924.png]({{ '/assets/img/image-20200502101846924.png' | prepend: site.baseurl  }})
 
 针对DOM0或者DOM2级别的事件，只会在冒泡阶段
 
@@ -491,7 +491,7 @@ IE9修复了这个bug，之后顺序就正确了。
     </script>
 ```
 
-![/styles/images/image-20200502105734943.png]({{ '/styles/images/image-20200502105734943.png' | prepend: site.baseurl  }})
+![/assets/img/image-20200502105734943.png]({{ '/assets/img/image-20200502105734943.png' | prepend: site.baseurl  }})
 
 ##### 事件的传递和css有关系么
 
@@ -537,7 +537,7 @@ IE9修复了这个bug，之后顺序就正确了。
     </script>
 ```
 
-![/styles/images/image-20200502111156477.png]({{ '/styles/images/image-20200502111156477.png' | prepend: site.baseurl  }})
+![/assets/img/image-20200502111156477.png]({{ '/assets/img/image-20200502111156477.png' | prepend: site.baseurl  }})
 
 ##### 事件的传递和css有关系么
 

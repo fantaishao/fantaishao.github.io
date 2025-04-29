@@ -49,8 +49,8 @@ js代码就是由操作符和表达式组成的。
 1.2 一元减操作符
 一元减操作符应用于数值时，该值会变成负数。而当应用于非数值时，一元减操作符遵循与一元加操作符相同的规则，最后再将得到的数值转换为负数
 
-![/styles/images/8.png]({{ '/styles/images/14.png' | prepend: site.baseurl  }})
-![/styles/images/8.png]({{ '/styles/images/15.png' | prepend: site.baseurl  }})
+![/assets/img/8.png]({{ '/assets/img/14.png' | prepend: site.baseurl  }})
+![/assets/img/8.png]({{ '/assets/img/15.png' | prepend: site.baseurl  }})
 
 ps：js中正0 和负0是完全相等的
 	
@@ -110,7 +110,7 @@ A=b=c=d // 赋值操作， 从右向左计算
 * 一元操作符对任何类型都有效
 * 当你把一个数字进行递减操作的时候，得到的结果可能跟预期不一样
 
-![/styles/images/8.png]({{ '/styles/images/16.png' | prepend: site.baseurl  }})
+![/assets/img/8.png]({{ '/assets/img/16.png' | prepend: site.baseurl  }})
 
 * 所以如果你想对一个小数进行递减，先把它转化为整数，再操作
 

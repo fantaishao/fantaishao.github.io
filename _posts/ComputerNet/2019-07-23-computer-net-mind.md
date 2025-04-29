@@ -17,4 +17,4 @@ tag: 计算机网络原理
 #### 计算机网路原理脑图	（持续更新中）		{#render-engine-basic-flow}
 ---------------------
 
-![/styles/images/computernet.png]({{ '/styles/images/computernet.png' | prepend: site.baseurl  }})
+![/assets/img/computernet.png]({{ '/assets/img/computernet.png' | prepend: site.baseurl  }})
